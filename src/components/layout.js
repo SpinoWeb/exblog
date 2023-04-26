@@ -4,7 +4,7 @@ import React from "react";
 import moon from "../assets/moon.png";
 import sun from "../assets/sun.png";
 import { rhythm } from "../utils/typography";
-import Excalidraw from "./excalidraw";
+//import Excalidraw from "./excalidraw";
 import "./layoutStyles.css";
 import Toggle from "./Toggle";
 
@@ -66,7 +66,6 @@ const Layout = ({ location, title, children, parentClassName }) => {
               <Link to="/">All posts</Link>
             </span>
           )}
-          <Excalidraw />
         </div>
         <span style={{ clear: "both" }} />
         {location.pathname === rootPath ? <h1>{title}</h1> : null}
@@ -79,15 +78,13 @@ const Layout = ({ location, title, children, parentClassName }) => {
         }}
       >
         <span>
-          © {new Date().getFullYear()} Excalidraw
+          © {new Date().getFullYear()} SpinoWeb
           {" • "}
-          <a href="https://twitter.com/excalidraw">Twitter</a>
+          <a href="https://twitter.com/spinoweb">Twitter</a>
           {" • "}
-          <a href="https://github.com/excalidraw/excalidraw-blog">
-            Source Code
-          </a>
+          <a href="https://github.com/spinoweb/exblog">Source Code</a>
           {" • "}
-          <a href="https://github.com/excalidraw/excalidraw-blog/blob/master/LICENSE">
+          <a href="https://github.com/spinoweb/exblog/blob/master/LICENSE">
             MIT Licensed
           </a>
         </span>

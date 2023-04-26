@@ -1,9 +1,9 @@
 ---
 title: Reading and writing files and directories with the browser-fs-access library
-date: 2020-12-09
+date: 2024-12-09
 note: 'This post appeared first on <a href="https://web.dev/browser-fs-access/">web.dev</a>.'
-author: tomayac
-link: https://twitter.com/tomayac
+author: SpinoWeb
+link: https://twitter.com/spinoweb
 image: chrome-save-as.png
 ---
 

@@ -7,7 +7,7 @@ import { rhythm } from "../utils/typography";
 function BlogPostTemplate({ data, pageContext: { previous, next }, location }) {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
-  const editUrl = `https://github.com/excalidraw/excalidraw-blog/edit/master/${post.fileAbsolutePath.substr(
+  const editUrl = `https://github.com/spinoweb/exblog/edit/master/${post.fileAbsolutePath.substr(
     post.fileAbsolutePath.indexOf("content/blog"),
   )}`;
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(

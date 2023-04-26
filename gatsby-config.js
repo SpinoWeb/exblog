@@ -1,13 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "Excalidraw Blog",
-    description:
-      "Get up to speed on the latest news and dive deep into inner workings of Excalidraw",
+    title: "My Blog",
+    description: "Structural engineering and web solutions",
     image: "/og-image-3.png",
     siteUrl: "https://blog.excalidraw.com",
     social: {
-      twitter: "excalidraw",
-      github: "excalidraw",
+      twitter: "spinoweb",
+      github: "spinoweb",
     },
   },
   plugins: [
@@ -78,15 +77,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-387204-13",
+        //trackingId: "UA-387204-13",
       },
     },
     "gatsby-plugin-feed",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Excalidraw Blog",
-        short_name: "Excalidraw",
+        name: "My Blog",
+        short_name: "Blog",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#663399",
