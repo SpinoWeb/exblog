@@ -60,10 +60,16 @@ const Layout = ({ location, title, children, parentClassName }) => {
         </ThemeToggler>
       </div>
       <header>
-        <div style={{ fontFamily: "var(--ui-font)", textAlign: "right" }}>
+        <div style={{ fontFamily: "var(--ui-font)", textAlign: "left" }}>
           {location.pathname !== rootPath && (
-            <span style={{ float: "left" }}>
+            <span>
               <Link to="/">All posts</Link>
+            </span>
+          )}
+          &nbsp;&nbsp;
+          {location.pathname !== rootPath && (
+            <span>
+              <Link to="/">Research</Link>
             </span>
           )}
         </div>
