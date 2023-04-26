@@ -1,6 +1,6 @@
 # Excalidraw Blog
 
-> For news and updates visit:
+> For news and updates visit: ./exblog
 
 ## Develop
 
