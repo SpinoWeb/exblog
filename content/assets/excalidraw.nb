@@ -10,14 +10,16 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     43267,        685]
-NotebookOptionsPosition[     42890,        671]
-NotebookOutlinePosition[     43312,        687]
-CellTagsIndexPosition[     43269,        684]
+NotebookDataLength[     48283,        812]
+NotebookOptionsPosition[     47775,        795]
+NotebookOutlinePosition[     48197,        811]
+CellTagsIndexPosition[     48154,        808]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{
   StyleBox[
@@ -51,16 +53,16 @@ di Catania\\\\2023-05-04_SURSO\\\\excalidraw\>\""}], ";"}],
    RowBox[{
     RowBox[{"SetDirectory", "[", "dir", "]"}], ";"}], 
    StyleBox["\[IndentingNewLine]",
-    FontColor->RGBColor[0, 0, 1]], 
-   StyleBox["\[IndentingNewLine]",
-    FontColor->RGBColor[0, 0, 1]], 
+    FontColor->RGBColor[0, 0, 1]], "\[IndentingNewLine]", 
    StyleBox[
     RowBox[{"(*", 
      RowBox[{
       RowBox[{"--", 
        RowBox[{"-", " ", 
         RowBox[{"packages", " ", "--"}]}]}], "-"}], "*)"}],
-    FontColor->RGBColor[0, 0, 1]], "\[IndentingNewLine]", 
+    FontColor->RGBColor[0, 0, 1]], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
    RowBox[{
     RowBox[{"Needs", "[", "\"\<utilities`\>\"", "]"}], ";"}], 
    "\[IndentingNewLine]", 
@@ -82,20 +84,6 @@ di Catania\\\\2023-05-04_SURSO\\\\excalidraw\>\""}], ";"}],
     RowBox[{"xJ", "=", "500"}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"dx", "=", "50"}], ";"}], "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"yMax", "=", "50"}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"a", "=", 
-     FractionBox["yMax", 
-      RowBox[{"xI", " ", "xJ"}]]}], ";", 
-    RowBox[{"b", "=", 
-     RowBox[{"-", 
-      FractionBox[
-       RowBox[{"yMax", " ", 
-        RowBox[{"(", 
-         RowBox[{"xI", "+", "xJ"}], ")"}]}], 
-       RowBox[{"xI", " ", "xJ"}]]}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"excalidraw", "=", 
@@ -117,42 +105,114 @@ di Catania\\\\2023-05-04_SURSO\\\\excalidraw\>\""}], ";"}],
          "\[IndentingNewLine]", "|>"}]}], ",", "\[IndentingNewLine]", 
        RowBox[{"\"\<files\>\"", "->", 
         RowBox[{"<|", "|>"}]}]}], "\[IndentingNewLine]", "|>"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
    StyleBox[
     RowBox[{"(*", " ", "elements", " ", "*)"}],
     FontColor->RGBColor[0, 0, 1]], 
    StyleBox["\[IndentingNewLine]",
     FontColor->RGBColor[0, 0, 1]], 
-   StyleBox[
-    RowBox[{
-     RowBox[{"points01", "=", 
-      RowBox[{"Table", "[", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"x", ",", 
-          RowBox[{
-           RowBox[{"a", " ", 
-            RowBox[{"x", "^", "2"}]}], "+", 
-           RowBox[{"b", " ", "x"}], "+", "yMax"}]}], "}"}], ",", 
-        RowBox[{"{", 
-         RowBox[{"x", ",", "xI", ",", "xJ", ",", "dx"}], "}"}]}], "]"}]}], 
-     ";"}],
-    FontColor->RGBColor[0, 0, 1]], "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"Line01", "=", 
-     RowBox[{"<|", 
+    RowBox[{"Lines", "=", 
+     RowBox[{"{", 
       RowBox[{
-       RowBox[{"\"\<width\>\"", "->", "0"}], ",", 
-       RowBox[{"\"\<height\>\"", "->", "0"}], ",", 
-       RowBox[{"\"\<points\>\"", "->", "points01"}]}], "|>"}]}], ";"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\"\<yMax\>\"", "->", "50"}], ",", 
+         RowBox[{"\"\<color\>\"", "->", "\"\<#1864ab\>\""}]}], "|>"}], ",", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\"\<yMax\>\"", "->", "100"}], ",", 
+         RowBox[{"\"\<color\>\"", "->", "\"\<#087f5b\>\""}]}], "|>"}], ",", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\"\<yMax\>\"", "->", "150"}], ",", 
+         RowBox[{"\"\<color\>\"", "->", "\"\<#c92a2a\>\""}]}], "|>"}]}], 
+      "}"}]}], ";"}], "\[IndentingNewLine]", 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
    RowBox[{
     RowBox[{"elements", "=", 
-     RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"{", "}"}]}], ";"}], 
+   StyleBox["\[IndentingNewLine]",
+    FontColor->RGBColor[0, 0, 1]], 
+   StyleBox[
+    RowBox[{
+     RowBox[{"points", "=", 
+      RowBox[{"{", "}"}]}], ";"}],
+    FontColor->RGBColor[0, 0, 1]], "\[IndentingNewLine]", 
+   StyleBox[
+    RowBox[{
+     RowBox[{"Do", "[", 
+      RowBox[{
+       RowBox[{"{", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"yMax", "=", 
+          RowBox[{
+           RowBox[{"Lines", "[", 
+            RowBox[{"[", "l", "]"}], "]"}], "[", 
+           RowBox[{"[", "\"\<yMax\>\"", "]"}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"color", "=", 
+          RowBox[{
+           RowBox[{"Lines", "[", 
+            RowBox[{"[", "l", "]"}], "]"}], "[", 
+           RowBox[{"[", "\"\<color\>\"", "]"}], "]"}]}], ";", 
+         "\[IndentingNewLine]", "\[IndentingNewLine]", 
+         RowBox[{"a", "=", 
+          FractionBox["yMax", 
+           RowBox[{"xI", " ", "xJ"}]]}], ";", 
+         RowBox[{"b", "=", 
+          RowBox[{"-", 
+           FractionBox[
+            RowBox[{"yMax", " ", 
+             RowBox[{"(", 
+              RowBox[{"xI", "+", "xJ"}], ")"}]}], 
+            RowBox[{"xI", " ", "xJ"}]]}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"points01", "=", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"x", ",", 
+              RowBox[{
+               RowBox[{"a", " ", 
+                RowBox[{"x", "^", "2"}]}], "+", 
+               RowBox[{"b", " ", "x"}], "+", "yMax"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"x", ",", "xI", ",", "xJ", ",", "dx"}], "}"}]}], "]"}]}],
+          ";", "\[IndentingNewLine]", 
+         RowBox[{"Line01", "=", 
+          RowBox[{"<|", 
+           RowBox[{
+            RowBox[{"\"\<width\>\"", "->", 
+             RowBox[{"xJ", "-", "xI"}]}], ",", 
+            RowBox[{"\"\<height\>\"", "->", "yMax"}], ",", 
+            RowBox[{"\"\<points\>\"", "->", "points01"}], ",", 
+            RowBox[{"\"\<strokeColor\>\"", "->", "color"}], ",", 
+            RowBox[{"\"\<strokeWidth\>\"", "->", "4"}]}], "|>"}]}], ";", 
+         "\[IndentingNewLine]", "\[IndentingNewLine]", 
+         RowBox[{"AppendTo", "[", 
+          RowBox[{"points", ",", "points01"}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"AppendTo", "[", 
+          RowBox[{"elements", ",", 
+           RowBox[{"exdwLine", "[", "Line01", "]"}]}], "]"}], ";"}], 
+        "\[IndentingNewLine]", "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"l", ",", "1", ",", 
+         RowBox[{"Lines", "//", "Length"}]}], "}"}]}], "]"}], ";"}],
+    FontColor->RGBColor[0, 0, 1]], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"AppendTo", "[", 
-     RowBox[{"elements", ",", 
-      RowBox[{"exdwLine", "[", "Line01", "]"}]}], "]"}], ";"}], 
+    RowBox[{"lp", "=", 
+     RowBox[{"ListPlot", "[", "points", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"0", "==", "1"}], ",", 
+      RowBox[{"Print", "[", "lp", "]"}]}], "]"}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{
@@ -666,8 +726,72 @@ di Catania\\\\2023-05-04_SURSO\\\\excalidraw\>\""}], ";"}],
    3.8914938447450266`*^9}, {3.891493877650795*^9, 3.8914939680485144`*^9}, {
    3.891494119083185*^9, 3.8914941197578354`*^9}, {3.8914941750470543`*^9, 
    3.891494238248542*^9}, {3.891494277579856*^9, 3.891494283198938*^9}, {
-   3.8914943147662673`*^9, 3.891494335161064*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"cb28f1fc-f2dd-4e95-9a8b-350882674d43"]
+   3.8914943147662673`*^9, 3.891494335161064*^9}, {3.8915033209525137`*^9, 
+   3.8915034460829067`*^9}, 3.89150349388752*^9, {3.8915035389122915`*^9, 
+   3.891503576316852*^9}, {3.8915037550436068`*^9, 3.8915040436061687`*^9}, {
+   3.8915041369934235`*^9, 
+   3.8915041849576426`*^9}},ExpressionUUID->"cb28f1fc-f2dd-4e95-9a8b-\
+350882674d43"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.011000000000000001`],
+      AbsoluteThickness[1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO9QcYkIFCDZSv7AChK6F8Iwj/QSmE32AJ4R8o
+gso7QPgO+RD+ASeo/kyovCtUfRJU3g0qHwmV94DyPaHyMD4MeDqg0HD5SAcU
+/QeSHFDNz3RAsd8h3wHFfQeKHFDc/6AUQsP8x1AJpaH+V6iB8qHh41APdycA
+wdUpEA==
+      "]]}, 
+    {RGBColor[0.880722, 0.611041, 0.142051], PointSize[0.011000000000000001`],
+      AbsoluteThickness[1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO9QcYkIFCDZRv7AChK6F8Jwj/QSmE3+AJ4R8o
+gsoHQPgO+RD+gSCo/kyofChUfRJUPgwqHwmVj4DyPaHyMD4MRMLkHVDlYeIR
+MPMdUM3PdECx3yHfAcV9B4ocUNz/oBRCw/zHUAmlnSC0Qg2UDw0fh3q4OwGC
+RCpA
+      "]]}, 
+    {RGBColor[0.560181, 0.691569, 0.194885], PointSize[0.011000000000000001`],
+      AbsoluteThickness[1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQYO9QcYkIFCDYTfYOMAEaiEyntD+A9KIXyFYAj/
+QBFUPgLCd8iHysdA9WdCzYuHqk+C8AUSofKRUP1JUL4nhD8BxoeCA3B5B1T5
+SAcU/TB1cPMzHVDsd8h3QHHfgSIHFPc/KIXKQ/3HUAmlof5XqIGaBw0fh3q4
+OwFTEin3
+      "]]}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{-500., 500.}, {0, 150.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Print",
+ CellChangeTimes->{{3.8915034527864175`*^9, 3.891503497607936*^9}, 
+   3.8915040263098435`*^9, 3.8915040649612036`*^9, 3.891504173372135*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"4591dd3c-7139-45a3-b8d1-caae201c4b69"]
+}, Open  ]]
 },
 WindowSize->{1010.4, 574.8},
 WindowMargins->{{25.799999999999997`, Automatic}, {Automatic, 0}},
@@ -686,7 +810,10 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 42328, 649, 847, "Input",ExpressionUUID->"cb28f1fc-f2dd-4e95-9a8b-350882674d43"]
+Cell[CellGroupData[{
+Cell[580, 22, 44917, 711, 1073, "Input",ExpressionUUID->"cb28f1fc-f2dd-4e95-9a8b-350882674d43"],
+Cell[45500, 735, 2259, 57, 240, "Print",ExpressionUUID->"4591dd3c-7139-45a3-b8d1-caae201c4b69"]
+}, Open  ]]
 }
 ]
 *)
