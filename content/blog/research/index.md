@@ -11,24 +11,37 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 <!-- end -->
 
-The [google](https://google.com/) link.
+- <a href="#ResearchFields">Research fields</a>
+- Biography
+- <a href="#JournalPublications">Journal publications</a>
+- <a href="#ChaptersInBooks">Chapters in books</a>
+- Papers in conference proceedings
+  - International
+  - National
+- Thesis
+- Thesis directed or co-directed
+  - Ph.D.
+  - M.D.
 
-![Logo](logo.png)
+## Research fields
 
-[Question22](#answer-22)
+<a name="ResearchFields"></a>
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- Shear behavior of lightly transverse reinforced beams, high performance concrete, fiber-reinforced concrete, and nonlinear analyses of reinforced concrete structures
+- Repairing and strenghtening of reinforced concrete columns with FRP or FRCM
+- Repairing and strenghtening of unreinforced masonry with stainless steel ribbons (CAM)
+- Effects of corrosion-damage on response behaviour of RC and PC structural elements
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Journal publications
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<a name="JournalPublications"></a>
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+1. Rossi P. P., **Spinella N.**, <a href="http://example.com/" target="_blank">Simplified Evaluation of the Ultimate Strength of RC Circular Members Subjected to Axial Force, Bending Moment and Shear Force</a>. Engineering Structures, 2023
+2. Marí A., **Spinella N.**, Rodriguez M. F., <a href="https://doi.org/10.1016/j.istruc.2023.04.035" target="_blank">Mechanical model for the shear-punching strength of steel fiber reinforced concrete slabs under concentric loading</a>. Structures, 52, pp. 854-867, June 2023
 
-## Answer 22
+## Chapters in books
 
-The answer is 42 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<a name="ChaptersInBooks"></a>
 
----
-
-**P. S.** post scriptum here.
+1. Colajanni P., Recupero A., **Spinella N.**, "Progetto INCAMMINO – Indagini sperimentali su elementi strutturali in muratura rinforzati con il CAM" part of book "Conservare l’edilizia in muratura: il sistema CAM-Cuciture Attive dei Manufatti" a cura di R. Marnetto, A. Vari, M. Leonori, Preprogetti S.r.l. Roma, 2014, ISBN: 978-88-95027-04-3, pp. 173-180
+2. Colajanni P., Recupero A., **Spinella N.**, "Nuove Tecniche di Rinforzo ed Adeguamento per Elementi in Calcestruzzo Armato" part of book <a href="http://www.patroneditore.com/volumi/9788855531092/il-sisma-dalla-conoscenza-all-intervento-l-esperienza-di-messina" target="_blank">Il Sisma: Dalla conoscenza all'intervento – L'esperienza di Messina</a> a cura di G. Falsone, Patron Editore, Bologna, 2010, ISBN: 978-88-55531-09-2
