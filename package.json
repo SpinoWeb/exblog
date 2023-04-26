@@ -1,0 +1,71 @@
+{
+  "author": "Christopher Chedeau <vjeuxx@gmail.com>",
+  "dependencies": {
+    "@weknow/gatsby-remark-twitter": "0.2.3",
+    "gatsby": "2.32.12",
+    "gatsby-embedder-excalidraw": "1.1.4",
+    "gatsby-image": "3.11.0",
+    "gatsby-plugin-canonical-urls": "2.10.0",
+    "gatsby-plugin-dark-mode": "1.1.2",
+    "gatsby-plugin-feed": "2.13.1",
+    "gatsby-plugin-google-analytics": "2.11.0",
+    "gatsby-plugin-manifest": "2.12.1",
+    "gatsby-plugin-offline": "3.10.2",
+    "gatsby-plugin-react-helmet": "3.10.0",
+    "gatsby-plugin-sharp": "2.14.3",
+    "gatsby-plugin-sitemap": "2.12.0",
+    "gatsby-plugin-twitter": "2.10.0",
+    "gatsby-plugin-typography": "2.12.0",
+    "gatsby-plugin-zeit-now": "0.3.0",
+    "gatsby-remark-copy-linked-files": "2.10.0",
+    "gatsby-remark-embedder": "4.2.0",
+    "gatsby-remark-images": "3.11.1",
+    "gatsby-remark-prismjs": "3.13.0",
+    "gatsby-remark-responsive-iframe": "2.11.0",
+    "gatsby-remark-smartypants": "2.10.0",
+    "gatsby-source-filesystem": "2.11.1",
+    "gatsby-transformer-remark": "2.16.1",
+    "gatsby-transformer-sharp": "2.12.1",
+    "prismjs": "1.23.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-helmet": "6.1.0",
+    "react-typography": "0.16.19",
+    "typeface-merriweather": "1.1.13",
+    "typeface-montserrat": "1.1.13",
+    "typography": "0.16.19",
+    "typography-theme-wordpress-2016": "0.16.19"
+  },
+  "description": "All the news about Excalidraw",
+  "devDependencies": {
+    "@excalidraw/prettier-config": "1.0.2",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
+    "sharp": "0.28.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,json,md,yml}": [
+      "prettier --write"
+    ]
+  },
+  "name": "excalidraw-blog",
+  "prettier": "@excalidraw/prettier-config",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "fix": "yarn prettier --write",
+    "prettier": "prettier \"**/*.{js,jsx,json,md,yml}\"",
+    "serve": "gatsby serve",
+    "start": "yarn develop",
+    "test": "yarn prettier --list-different"
+  },
+  "version": "1.0.0"
+}
