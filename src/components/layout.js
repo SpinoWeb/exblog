@@ -61,17 +61,13 @@ const Layout = ({ location, title, children, parentClassName }) => {
       </div>
       <header>
         <div style={{ fontFamily: "var(--ui-font)", textAlign: "left" }}>
-          {location.pathname !== rootPath && (
-            <span>
-              <Link to="/">All posts</Link>
-            </span>
-          )}
+          <span>
+            <Link to="/">All posts</Link>
+          </span>
           &nbsp;&nbsp;
-          {location.pathname !== rootPath && (
-            <span>
-              <Link to="/">Research</Link>
-            </span>
-          )}
+          <span>
+            <Link to="/research">Research</Link>
+          </span>
         </div>
         <span style={{ clear: "both" }} />
         {location.pathname === rootPath ? <h1>{title}</h1> : null}

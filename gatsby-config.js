@@ -3,7 +3,7 @@ module.exports = {
     title: "My Blog",
     description: "Structural engineering and web solutions",
     image: "/og-image-3.png",
-    siteUrl: "https://blog.excalidraw.com",
+    siteUrl: "https://blog.com",
     social: {
       twitter: "spinoweb",
       github: "spinoweb",
@@ -106,7 +106,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://blog.excalidraw.com`,
+        siteUrl: `https://blog.com`,
         stripQueryString: true,
       },
     },

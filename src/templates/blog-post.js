@@ -11,7 +11,7 @@ function BlogPostTemplate({ data, pageContext: { previous, next }, location }) {
     post.fileAbsolutePath.indexOf("content/blog"),
   )}`;
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://blog.excalidraw.com${post.fields.slug}`,
+    `https://blog.com${post.fields.slug}`,
   )}`;
 
   const authors =
