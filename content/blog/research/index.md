@@ -1,7 +1,7 @@
 ---
 title: Research
 date: 2005-01-01
-note: research page.
+note: Page of research activity.
 author: SpinoWeb
 link: https://twitter.com/spinoweb
 image: logo.png
