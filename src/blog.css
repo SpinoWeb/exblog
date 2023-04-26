@@ -1,6 +1,6 @@
 .blog-post h3 {
   margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .blog-post svg,
@@ -40,6 +40,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/*
+.blog-post ul {
+  line-height: 16px;
+}
+
+.blog-post li {
+  line-height: 20px;
+}
+*/
 
 th,
 td {

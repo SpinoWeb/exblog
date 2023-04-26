@@ -1,13 +1,13 @@
 ---
 title: Research
-date: 2022-04-26
+date: 2005-01-01
 note: research page.
 author: SpinoWeb
 link: https://twitter.com/spinoweb
 image: logo.png
 ---
 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Page of research activity.
 
 <!-- end -->
 
@@ -36,7 +36,7 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 <a name="JournalPublications"></a>
 
-1. Rossi P. P., **Spinella N.**, <a href="http://example.com/" target="_blank">Simplified Evaluation of the Ultimate Strength of RC Circular Members Subjected to Axial Force, Bending Moment and Shear Force</a>. Engineering Structures, 2023
+1. Rossi P. P., **Spinella N.**, <a href="#JournalPublications" target="_blank">Simplified Evaluation of the Ultimate Strength of RC Circular Members Subjected to Axial Force, Bending Moment and Shear Force</a>. Engineering Structures, 2023
 2. Marí A., **Spinella N.**, Rodriguez M. F., <a href="https://doi.org/10.1016/j.istruc.2023.04.035" target="_blank">Mechanical model for the shear-punching strength of steel fiber reinforced concrete slabs under concentric loading</a>. Structures, 52, pp. 854-867, June 2023
 
 ## Chapters in books
