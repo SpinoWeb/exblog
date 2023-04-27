@@ -12,7 +12,7 @@ Page of research activity.
 <!-- end -->
 
 - <a href="#ResearchFields">Research fields</a>
-- Biography
+- <a href="#Biography">Biography</a>
 - <a href="#JournalPublications">Journal publications</a>
 - <a href="#ChaptersInBooks">Chapters in books</a>
 - Papers in conference proceedings
@@ -31,6 +31,26 @@ Page of research activity.
 - Repairing and strenghtening of reinforced concrete columns with FRP or FRCM
 - Repairing and strenghtening of unreinforced masonry with stainless steel ribbons (CAM)
 - Effects of corrosion-damage on response behaviour of RC and PC structural elements
+
+## Biography
+
+<a name="Biography"></a>
+
+- **2021**: <u>Assistant Professor</u> of "Structural Engineering", <a href="https://www.dicar.unict.it/docenti/nino.spinella" target="_blank">Department of Civil Engineering and Architecture, University of Catania (Italy)</a>
+- **2019/2020**: Adjunct Lecturer of “Structural Engineering”, Faculty of Architecture, Università di Enna “Kore” (Italy)
+- **2015/2016**: Adjunct Lecturer of “Seismic Design”, Department of Engineering, Università di Messina (Italy)
+- **2014/2015 & 2013/2014**: Adjunct Lecturer of “Structural Engineering”, Department of Engineering, Università di Messina (Italy)
+- **2010/2011**: Adjunct Lecturer of “Precast Structures” and “Structural Reliability”, Department of Civil Engineering, Università di Messina (Italy)
+- **2008 – 2010**: Post-Doc in structural engineering, Department of Civil Engineering, Università di Messina (Italy)
+- **2009**: Visiting Researcher at the Politecnico di Torino (Italy) in collaboration with the Structural Engineering Group coordinated by Prof. Giuseppe Mancini, to develop a FEM analytical model for bidimensional RC members
+- **2006 – 2007**: Research Assistant, Department of Civil Engineering, University of Toronto (Canada)
+  - Research activity on shear behaviour of steel fibre reinforced concrete (SFRC) and developing of the NLFEA software <a href="http://www.vectoranalysisgroup.com/" target="_blank">VecTor2</a> in collaboration with Prof. Frank J. Vecchio.
+- **2005 – 2007**: Ph. D. Student in Civil and Environmental Engineering at Università di Messina, Italy, Department of Civil Engineering, with emphasis in Structural Engineering
+  - Ph. D. thesis title: "Models for SFRC beams under shear and flexural loading" (Modelli per la risposta a taglio e flessione di travi in calcestruzzo rinforzato con fibre d’acciaio, in italian). Final exam: March 27, 2008 (awarded cum laude). Tutors: Prof. P. Colajanni, Prof. A. Recupero;
+- **2005**: Selected to attend the 14th Summer School of Grid Computing at the InterUniversity Consortium CINECA, Casalecchio di Reno (BO) – Italy.
+- **2004**: European Computer Driving License (ECDL)
+- **Apr. 21, 2004**: M.Sc. in Civil Engineering (Final mark: 110/110), from the Università di Messina, Italy, with emphasis in Structural Engineering.
+  - Final dissertation: "A model for the evaluation of the behaviour of FRP reinforced columns" (Un modello per la valutazione del comportamento di colonne rinforzate con FRP, in Italian). Tutor: Prof. P. Colajanni.
 
 ## Journal publications
 
