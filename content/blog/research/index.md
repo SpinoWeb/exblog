@@ -1,6 +1,6 @@
 ---
 title: Research
-date: 2005-01-01
+date: 2004-04-21
 note: Page of research activity.
 author: SpinoWeb
 link: https://twitter.com/spinoweb
