@@ -56,7 +56,7 @@ Page of research activity.
 
 <a name="JournalPublications"></a>
 
-1. Rossi P. P., **Spinella N.**, <a href="#JournalPublications" target="_blank">Simplified Evaluation of the Ultimate Strength of RC Circular Members Subjected to Axial Force, Bending Moment and Shear Force</a>. Engineering Structures, 2023
+1. Rossi P. P., **Spinella N.**, <a href="https://doi.org/10.1016/j.engstruct.2023.116117" target="_blank">Simplified Evaluation of the Ultimate Strength of RC Circular Members Subjected to Axial Force, Bending Moment and Shear Force</a>. Engineering Structures, 2023
 2. Marí A., **Spinella N.**, Rodriguez M. F., <a href="https://doi.org/10.1016/j.istruc.2023.04.035" target="_blank">Mechanical model for the shear-punching strength of steel fiber reinforced concrete slabs under concentric loading</a>. Structures, 52, pp. 854-867, June 2023
 
 ## Chapters in books
